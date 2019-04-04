@@ -1,15 +1,3 @@
-/*
- * Server Software (COMSM2001), 2017-18, Coursework 1.
- *
- * This is a skeleton program for COMSM2001 (Server Software) coursework 1
- * "the project marking problem". Your task is to synchronise the threads
- * correctly by adding code in the places indicated by comments in the
- * student, marker and run functions.
- * You may create your own global variables and further functions.
- * The code in this skeleton program can be used without citation in the files
- * that you submit for your coursework.
- */
-
 #include <stdlib.h>
 #include <stdio.h>
 #include <pthread.h>
@@ -418,9 +406,7 @@ void *student(void *arg) {
     return NULL;
 }
 
-/* The function that runs the session.
- * You MAY want to modify this function.
- */
+/* The function that runs the session. */
 void run() {
     int i;
     int ok;
